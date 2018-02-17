@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play-json_2.11-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/joda-time-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/netty-http-pipelining-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jackson-core-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/akka-slf4j_2.11-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/joda-convert-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/build-link-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/scala-stm_2.11-0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/scala-library-2.11.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/logback-core-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play2-war-core-common_2.11-1.3-beta3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/scala-xml_2.11-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/xercesImpl-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/netty-3.9.9.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/scala-parser-combinators_2.11-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play-exceptions-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/twirl-api_2.11-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play-functional_2.11-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/xml-apis-1.4.01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play_2.11-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jackson-databind-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play2-war-core-servlet30_2.11-1.3-beta3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/scala-reflect-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/akka-actor_2.11-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/javassist-3.18.2-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/config-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play-datacommons_2.11-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT/WEB-INF/lib/play-iteratees_2.11-2.3.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,321 @@
+2018-02-17 11:00:38,173 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2018-02-17 11:00:54,257 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:mysql://localhost:3306/travel] bound to JNDI as DefaultDS
+
+2018-02-17 11:00:54,514 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/travel
+
+2018-02-17 11:00:54,600 - [INFO] - from org.hibernate.annotations.common.Version in play-internal-execution-context-1 
+Hibernate Commons Annotations 3.2.0.Final
+
+2018-02-17 11:00:54,606 - [INFO] - from org.hibernate.cfg.Environment in play-internal-execution-context-1 
+Hibernate 3.6.10.Final
+
+2018-02-17 11:00:54,607 - [INFO] - from org.hibernate.cfg.Environment in play-internal-execution-context-1 
+hibernate.properties not found
+
+2018-02-17 11:00:54,609 - [INFO] - from org.hibernate.cfg.Environment in play-internal-execution-context-1 
+Bytecode provider name : javassist
+
+2018-02-17 11:00:54,611 - [INFO] - from org.hibernate.cfg.Environment in play-internal-execution-context-1 
+using JDK 1.4 java.sql.Timestamp handling
+
+2018-02-17 11:00:54,646 - [INFO] - from org.hibernate.ejb.Version in play-internal-execution-context-1 
+Hibernate EntityManager 3.6.10.Final
+
+2018-02-17 11:00:54,882 - [INFO] - from org.hibernate.cfg.AnnotationBinder in play-internal-execution-context-1 
+Binding entity from annotated class: models.POI
+
+2018-02-17 11:00:54,906 - [INFO] - from org.hibernate.cfg.annotations.EntityBinder in play-internal-execution-context-1 
+Bind entity models.POI on table POI
+
+2018-02-17 11:00:54,941 - [INFO] - from org.hibernate.cfg.AnnotationBinder in play-internal-execution-context-1 
+Binding entity from annotated class: models.Currency
+
+2018-02-17 11:00:54,942 - [INFO] - from org.hibernate.cfg.annotations.EntityBinder in play-internal-execution-context-1 
+Bind entity models.Currency on table Currency
+
+2018-02-17 11:00:54,942 - [INFO] - from org.hibernate.cfg.AnnotationBinder in play-internal-execution-context-1 
+Binding entity from annotated class: models.Continent
+
+2018-02-17 11:00:54,942 - [INFO] - from org.hibernate.cfg.annotations.EntityBinder in play-internal-execution-context-1 
+Bind entity models.Continent on table Continent
+
+2018-02-17 11:00:54,943 - [INFO] - from org.hibernate.cfg.AnnotationBinder in play-internal-execution-context-1 
+Binding entity from annotated class: models.Country
+
+2018-02-17 11:00:54,943 - [INFO] - from org.hibernate.cfg.annotations.EntityBinder in play-internal-execution-context-1 
+Bind entity models.Country on table Country
+
+2018-02-17 11:00:54,949 - [INFO] - from org.hibernate.cfg.Configuration in play-internal-execution-context-1 
+Hibernate Validator not found: ignoring
+
+2018-02-17 11:00:54,976 - [INFO] - from org.hibernate.validator.internal.util.Version in play-internal-execution-context-1 
+HV000001: Hibernate Validator 5.0.3.Final
+
+2018-02-17 11:00:55,106 - [INFO] - from org.hibernate.cfg.search.HibernateSearchEventListenerRegister in play-internal-execution-context-1 
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+
+2018-02-17 11:00:55,112 - [INFO] - from org.hibernate.util.NamingHelper in play-internal-execution-context-1 
+JNDI InitialContext properties:{}
+
+2018-02-17 11:00:55,112 - [INFO] - from org.hibernate.connection.DatasourceConnectionProvider in play-internal-execution-context-1 
+Using datasource: DefaultDS
+
+2018-02-17 11:00:55,129 - [INFO] - from org.hibernate.dialect.Dialect in play-internal-execution-context-1 
+Using dialect: org.hibernate.dialect.MySQL5Dialect
+
+2018-02-17 11:00:55,137 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Database ->
+       name : MySQL
+    version : 5.6.35
+      major : 5
+      minor : 6
+
+2018-02-17 11:00:55,137 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+
+2018-02-17 11:00:55,139 - [INFO] - from org.hibernate.transaction.TransactionFactoryFactory in play-internal-execution-context-1 
+Using default transaction strategy (direct JDBC transactions)
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.transaction.TransactionManagerLookupFactory in play-internal-execution-context-1 
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Automatic flush during beforeCompletion(): disabled
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Automatic session close at end of transaction: disabled
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+JDBC batch size: 15
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+JDBC batch updates for versioned data: disabled
+
+2018-02-17 11:00:55,140 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Scrollable result sets: enabled
+
+2018-02-17 11:00:55,141 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+JDBC3 getGeneratedKeys(): enabled
+
+2018-02-17 11:00:55,141 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Connection release mode: auto
+
+2018-02-17 11:00:55,141 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Maximum outer join fetch depth: 2
+
+2018-02-17 11:00:55,141 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Default batch fetch size: 1
+
+2018-02-17 11:00:55,142 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Generate SQL with comments: disabled
+
+2018-02-17 11:00:55,142 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Order SQL updates by primary key: disabled
+
+2018-02-17 11:00:55,142 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Order SQL inserts for batching: disabled
+
+2018-02-17 11:00:55,142 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+
+2018-02-17 11:00:55,143 - [INFO] - from org.hibernate.hql.ast.ASTQueryTranslatorFactory in play-internal-execution-context-1 
+Using ASTQueryTranslatorFactory
+
+2018-02-17 11:00:55,143 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Query language substitutions: {}
+
+2018-02-17 11:00:55,143 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+JPA-QL strict compliance: enabled
+
+2018-02-17 11:00:55,143 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Second-level cache: enabled
+
+2018-02-17 11:00:55,144 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Query cache: disabled
+
+2018-02-17 11:00:55,144 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+
+2018-02-17 11:00:55,144 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Optimize cache for minimal puts: disabled
+
+2018-02-17 11:00:55,145 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Structured second-level cache entries: disabled
+
+2018-02-17 11:00:55,148 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Echoing all SQL to stdout
+
+2018-02-17 11:00:55,149 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Statistics: disabled
+
+2018-02-17 11:00:55,149 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Deleted entity synthetic identifier rollback: disabled
+
+2018-02-17 11:00:55,149 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Default entity-mode: pojo
+
+2018-02-17 11:00:55,149 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Named query checking : enabled
+
+2018-02-17 11:00:55,149 - [INFO] - from org.hibernate.cfg.SettingsFactory in play-internal-execution-context-1 
+Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+
+2018-02-17 11:00:55,165 - [INFO] - from org.hibernate.impl.SessionFactoryImpl in play-internal-execution-context-1 
+building session factory
+
+2018-02-17 11:00:55,171 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@15e51abc
+
+2018-02-17 11:00:55,171 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@6ac9551c
+
+2018-02-17 11:00:55,171 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@6ac9551c
+
+2018-02-17 11:00:55,171 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@510cfd78
+
+2018-02-17 11:00:55,172 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@4193132d
+
+2018-02-17 11:00:55,172 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@7c9ed159
+
+2018-02-17 11:00:55,172 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@5cdf0a63
+
+2018-02-17 11:00:55,172 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@5cdf0a63
+
+2018-02-17 11:00:55,172 - [INFO] - from org.hibernate.type.BasicTypeRegistry in play-internal-execution-context-1 
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@6a0edbbd
+
+2018-02-17 11:00:55,312 - [INFO] - from org.hibernate.impl.SessionFactoryObjectFactory in play-internal-execution-context-1 
+Not binding factory to JNDI, no JNDI name configured
+
+2018-02-17 11:01:00,495 - [INFO] - from org.springframework.context.support.ClassPathXmlApplicationContext in play-internal-execution-context-1 
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ae255: startup date [Sat Feb 17 11:01:00 EST 2018]; root of context hierarchy
+
+2018-02-17 11:01:00,525 - [INFO] - from org.springframework.beans.factory.xml.XmlBeanDefinitionReader in play-internal-execution-context-1 
+Loading XML bean definitions from file [/Users/dliu15/work/self/TravelMobile/target/classes/spring/application-context.xml]
+
+2018-02-17 11:01:00,665 - [INFO] - from org.springframework.beans.factory.xml.XmlBeanDefinitionReader in play-internal-execution-context-1 
+Loading XML bean definitions from file [/Users/dliu15/work/self/TravelMobile/target/classes/spring/security-context.xml]
+
+2018-02-17 11:01:00,710 - [INFO] - from org.springframework.security.core.SpringSecurityCoreVersion in play-internal-execution-context-1 
+You are running with Spring Security Core 3.2.3.RELEASE
+
+2018-02-17 11:01:00,711 - [INFO] - from org.springframework.security.config.SecurityNamespaceHandler in play-internal-execution-context-1 
+Spring Security 'config' module version is 3.2.3.RELEASE
+
+2018-02-17 11:01:00,754 - [INFO] - from org.springframework.security.config.method.GlobalMethodSecurityBeanDefinitionParser in play-internal-execution-context-1 
+Using bean 'oauth2ExpressionHandler' as method ExpressionHandler implementation
+
+2018-02-17 11:01:00,903 - [INFO] - from org.springframework.beans.factory.config.PropertyPlaceholderConfigurer in play-internal-execution-context-1 
+Loading properties file from class path resource [application.conf]
+
+2018-02-17 11:01:01,356 - [INFO] - from org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping in play-internal-execution-context-1 
+Mapped "{[/oauth/confirm_access],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint.getAccessConfirmation(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-02-17 11:01:01,358 - [INFO] - from org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping in play-internal-execution-context-1 
+Mapped "{[/oauth/authorize],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.authorize(java.util.Map<java.lang.String, java.lang.Object>,java.util.Map<java.lang.String, java.lang.String>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+
+2018-02-17 11:01:01,358 - [INFO] - from org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping in play-internal-execution-context-1 
+Mapped "{[/oauth/authorize],methods=[POST],params=[user_oauth_approval],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.View org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.approveOrDeny(java.util.Map<java.lang.String, java.lang.String>,java.util.Map<java.lang.String, ?>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+
+2018-02-17 11:01:01,359 - [INFO] - from org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping in play-internal-execution-context-1 
+Mapped "{[/oauth/token],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.getAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>)
+
+2018-02-17 11:01:01,372 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2018-02-17 11:01:01,604 - [INFO] - from akka.event.slf4j.Slf4jLogger in play-akka.actor.default-dispatcher-2 
+Slf4jLogger started
+
+2018-02-17 11:01:01,767 - [INFO] - from request in play-akka.actor.default-dispatcher-2 
+Start GET / -> controllers.Application.index
+
+2018-02-17 11:01:01,770 - [INFO] - from security in play-akka.actor.default-dispatcher-2 
+Authentication skipped
+
+2018-02-17 11:01:01,810 - [INFO] - from request in play-akka.actor.default-dispatcher-2 
+End GET / -> controllers.Application.index
+
+2018-02-17 11:01:09,973 - [ERROR] - from play in play-akka.actor.default-dispatcher-3 
+Cannot invoke the action, eventually got an error: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [play.db.jpa.TransactionalAction] is defined
+
+2018-02-17 11:01:09,980 - [ERROR] - from application in play-akka.actor.default-dispatcher-3 
+
+
+! @772l88eek - Internal server error, for (GET) [/pois/1/query?queryInfo=1&queryType=0] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchBeanDefinitionException: No qualifying bean of type [play.db.jpa.TransactionalAction] is defined]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.10.jar:2.3.10]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.10.jar:2.3.10]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.10.jar:2.3.10]
+	at scala.Option.map(Option.scala:146) [scala-library-2.11.12.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.10.jar:2.3.10]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.10.jar:2.3.10]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:36) [scala-library-2.11.12.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:44) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:252) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:157) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.12.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.12.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [play.db.jpa.TransactionalAction] is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:319) ~[spring-beans-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:985) ~[spring-context-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at Global.getControllerInstance(Global.java:26) ~[classes/:na]
+	at play.core.j.JavaGlobalSettingsAdapter.getControllerInstance(JavaGlobalSettingsAdapter.scala:50) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.core.j.JavaAction$$anonfun$8.apply(JavaAction.scala:72) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.core.j.JavaAction$$anonfun$8.apply(JavaAction.scala:69) ~[play_2.11-2.3.10.jar:2.3.10]
+	at scala.collection.IndexedSeqOptimized$class.foldl(IndexedSeqOptimized.scala:57) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.IndexedSeqOptimized$class.foldLeft(IndexedSeqOptimized.scala:66) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayOps$ofRef.foldLeft(ArrayOps.scala:186) ~[scala-library-2.11.12.jar:na]
+	at play.core.j.JavaAction$class.apply(JavaAction.scala:69) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.10.jar:2.3.10]
+	at scala.Option.map(Option.scala:146) [scala-library-2.11.12.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.10.jar:2.3.10]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.12.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.12.jar:na]
+	... 6 common frames omitted
+
+2018-02-17 11:03:34,975 - [INFO] - from org.hibernate.impl.SessionFactoryImpl in main 
+closing
+
+2018-02-17 11:03:34,977 - [INFO] - from com.jolbox.bonecp.BoneCP in main 
+Shutting down connection pool...
+
+2018-02-17 11:03:35,031 - [INFO] - from com.jolbox.bonecp.BoneCP in main 
+Connection pool has been shutdown.
+

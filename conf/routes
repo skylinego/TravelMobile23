@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           @controllers.Application.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+POST    /client/authenticate        @security.SecurityController.authenticateClient()
+POST    /user/authenticate          @security.SecurityController.authenticateUser()
+POST    /user/refresh               @security.SecurityController.refreshUserAccessToken()
+
+GET     /user/get                   @controllers.Application.userDetails()
+
+# Computers list (look at the default values for pagination parameters)
+GET     /pois/:id/query             @controllers.CPOI.query(id:Long, queryInfo:String, queryType:Int)

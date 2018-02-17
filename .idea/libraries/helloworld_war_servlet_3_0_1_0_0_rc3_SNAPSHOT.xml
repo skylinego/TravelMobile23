@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/helloworld-war-servlet-3.0-1.0.0-rc3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
